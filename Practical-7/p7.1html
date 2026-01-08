@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>First JavaScript</title>
+<script>
+document.write("Hello and Welcome to my first JavaScript
+Page")
+</script>
+</head>
+<body>
+<script src="external.js"></script>
+<br><button onclick="fst()">Ext_JS</button>
+</body>
+</html>
