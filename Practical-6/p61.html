@@ -1,0 +1,87 @@
+<html>
+         <head>
+               <title>P6.1</title>
+              <link rel="stylesheet" href="P61.css" \>
+</head>
+<body>
+    <div>
+        <h1>Educational Qualification</h1>
+        <hr color="pink" size="5px" \>
+        <table>
+            <caption>Educational Details</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Sr. No</th>
+                    <th rowspan="2">Degree</th>
+                    <th rowspan="2">School Name/College Name</th>
+                    <th rowspan="2" colspan="2">University/Board/Year Of Passing</th>
+                    <th colspan="2">Results</th>
+                </tr>
+                <tr>
+                    <th>Percentage</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>10th</td>
+                    <td>Ganpat University</td>
+                    <td>Ganpat University</td>
+                    <td>2017</td>
+                    <td>80</td>
+                    <td>Distinction</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>12th</td>
+                    <td>Ganpat University</td>
+                    <td>Ganpat University</td>
+                    <td>2019</td>
+                    <td>80</td>
+                    <td>Distinction</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>B.E CE</td>
+                    <td>Ganpat University</td>
+                    <td>Ganpat University</td>
+                    <td>2020</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+Css:-
+
+ table,th,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    color: green;
+    caption-side: bottom;
+    padding: 5px;
+    margin-top: 50px;
+}
+th:nth-child(even){
+    background-color: purple;
+}
+body tr:first-child{
+    background-color: red;
+}
+body td:nth-child(odd){
+    background-color: olive;
+}
+thead th:hover, caption:hover{
+    background-color:lightcoral;
+}
+div{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 4px;
+    margin: 200px;
+}
