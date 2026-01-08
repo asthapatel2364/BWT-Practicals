@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Simple Image Gallery</title>
+  <link rel="stylesheet" href="P3.css" \>
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="images1.png" alt="Image 1" size="500px">
+    </div>
+    <div class="gallery-item">
+      <img src="images2.jpg" alt="Image 2"  size="500px">
+    </div>
+    <div class="gallery-item">
+      <img src="images3.png" alt="Image 3"  size="500px">
+    </div>
+    <div class="gallery-item">
+      <img src="images4.png" alt="Image 4"  size="500px">
+    </div>
+  </div>
+</body>
+</html>
+
+Css:-
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 150px;
+    transition: opacity 0.5s ease;
+}
+
+.gallery-item:hover img {
+    opacity: 0.7;
+}
